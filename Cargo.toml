@@ -1,0 +1,14 @@
+[package]
+name = "xbox-speed-test"
+version = "0.1.0"
+edition = "2021"
+authors = ["Bryan <38807139+liby@users.noreply.github.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+
+[[bin]]
+name = "xst"
+path = "src/main.rs"
