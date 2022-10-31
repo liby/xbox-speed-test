@@ -4,7 +4,12 @@
 
 ## 使用方法
 
-到 [Release](https://github.com/liby/xbox-speed-test/releases/latest) 页面下载最新的二进制文件，
+到 [Release](https://github.com/liby/xbox-speed-test/releases/latest) 页面下载最新的二进制文件并给予执行权限：
+```
+curl -fLO https://github.com/liby/xbox-speed-test/releases/latest/download/xst
+chmod +x xst
+```
+
 在下载的目标文件夹中运行此命令来将脚本临时添加进环境变量中：
 ```shell
 export PATH="$PATH:`pwd`"
